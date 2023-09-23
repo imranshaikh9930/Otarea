@@ -40,6 +40,7 @@ ul {
 
 li {
   margin-right: 20px;
+  
 }
 li img {
   display: inline-block;
@@ -49,6 +50,7 @@ li img {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 .get-quote-btn {
   background-color: #184655;
