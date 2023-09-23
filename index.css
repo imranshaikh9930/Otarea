@@ -1,0 +1,290 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto Flex", sans-serif;
+  margin: 15px;
+}
+.left-subcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.left-subcontainer > img {
+  width: 200px;
+  height: 60px;
+}
+.vertical-line {
+  border-left: 1px solid #ada5a5;
+  height: 21px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-right: 20px;
+}
+li img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.get-quote-btn {
+  background-color: #184655;
+  color: white;
+  padding: 10px 25px;
+  align-items: center;
+  border-radius: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+}
+
+/* Hero Section */
+
+.hero,
+footer {
+  background-image: url("Assets/Heroback.jpg"); /* Replace with the path to your image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Center the background image */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 40px;
+  color: white;
+}
+
+.hero-text {
+  color: #000000;
+  margin-left: 1rem;
+}
+
+.hero-text h1 {
+  color: #184655;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.hero-input-container {
+  margin-top: 26px;
+  height: 40px;
+  width: 446px;
+}
+.hero-input-container,
+input {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-around;
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.hero-input-container button {
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #184655;
+  color: #fff;
+  border: none;
+  margin-left: 4rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.hero-description {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-top: 1rem;
+  font-family: "Roboto Flex", sans-serif;
+  color: #53748c;
+  font-size: 15px;
+}
+
+/* Style the Latest Blog Section */
+.latest-blog,
+.more-blogs,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  width: auto;
+  margin: 25px;
+}
+
+.blog-image {
+  width: 500px;
+  height: 460px;
+  max-width: 50%;
+}
+.blog-image > img {
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+}
+.blog-image,
+.blog-content {
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+.blog-content {
+  margin-top: -11rem;
+  margin-right: 2rem;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.blog-content h2 {
+  font-size: 30px;
+}
+.latest-blog-writer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-blog-writer span {
+  color: #53748c;
+  margin: 1rem 0rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.blog-content p {
+  font-family: "Roboto Flex", sans-serif;
+  color: #464343;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.blog-image,
+.blog-content {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+/* More Blogs */
+
+.blogs {
+  width: 340px;
+  height: 418px;
+  /* border: 2px solid black; */
+  margin: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.blogs-img1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.blogs-info {
+  margin: 2rem 1rem;
+}
+
+.blogs-info h2 {
+  font-size: 20px;
+}
+
+.blogs-info p {
+  color: #464343;
+  margin-top: -10px;
+}
+.see-full {
+  position: absolute;
+  bottom: 11px;
+  right: 17px;
+}
+
+/* Footer */
+
+footer {
+  background-image: url("Assets/Heroback.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  font-family: "Roboto Flex", sans-serif;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  width: 40%;
+  color: #000000;
+  font-size: 22px;
+  padding: 5rem;
+  line-height: 2rem;
+}
+.footer-text p {
+  margin: 5px;
+}
+.footer-text button {
+  padding: 5px;
+  border-radius: 17px;
+  background-image: linear-gradient(to right, #2d58ae, #3bb08b);
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  margin-top: 15px;
+}
+.footer-image {
+  width: 50%;
+}
+.footer-image > img {
+  width: 100%;
+}
+
+.footer-text,
+.footer-image {
+  position: relative;
+  top: 0px;
+  left: 15px;
+}
+
+.creator {
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
